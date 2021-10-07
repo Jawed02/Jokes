@@ -11,8 +11,8 @@ fetch(url)
 .then(function(data){
    var setup = data.setup;
    var delievery = data.delivery;
-   console.log(setup);
-    console.log(delievery);
+   // console.log(setup);
+    // console.log(delievery);
 
     if(setup == null || delievery == null){
       getJokes();
